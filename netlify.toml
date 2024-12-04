@@ -3,10 +3,6 @@
   publish = "public"
   environment = { NODE_VERSION = "20" }
 
-[build.environment]
-  NODE_OPTIONS = "--max-old-space-size=8192"
-  GATSBY_CPU_COUNT = "2"
-
 [[plugins]]
   package = "@netlify/plugin-gatsby"
 
