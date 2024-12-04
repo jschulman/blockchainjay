@@ -4,10 +4,10 @@ import menu from "./menu";
 export default {
   site: {
     siteMetadata: {
-      title: "Blog by John Doe",
-      url: "https://lumen.alxshelepenok.com",
-      description: "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-      copyright: "All rights reserved.",
+      title: "Writings by Jay Schulman",
+      url: "https://blockchainjay.org",
+      description: "A blog about blockchain technology, DeFi, and the future of finance.",
+      copyright: "© 2024 Jay Schulman. All rights reserved.",
       feedLimit: 4,
       author,
       menu,

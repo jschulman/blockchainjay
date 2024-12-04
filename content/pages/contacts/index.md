@@ -4,28 +4,42 @@ template: "page"
 socialImage: "./image.jpg"
 ---
 
-Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+<h1 style="margin-bottom: 1.5rem; font-size: 2rem; font-weight: bold;">Let's Get In Touch</h1>
 
-Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+<p style="margin-bottom: 2rem; font-size: 1.1rem;">Got questions or comments? I'd love to hear from you! Fill out the form below and I'll get back to you as soon as possible.</p>
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/image.jpg)
-
-_Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi._
-
-## Header Level 2
-
-Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
-
-- **Lorem ipsum** dolor sit amet, consectetuer adipiscing elit.
-- Aliquam tincidunt mauris eu risus.
-- Vestibulum auctor dapibus neque.
-
-### Header Level 3
-
-Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec **consectetuer** ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
-
-Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
-
-#### Header Level 4
-
-Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+<form name="contact" action="/contact-success" method="POST" netlify-honeypot="pooh" netlify style="max-width: 600px; margin: 0 auto; padding: 2rem; background-color: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <div class="field hidden" style="display: none;">
+        <label class="label" for="pooh">Don't fill this out if you're human</label>
+        <div class="control">
+            <input class="input" id="pooh" name="pooh"/>
+        </div>
+    </div>
+    <div class="field" style="margin-bottom: 1.5rem;">
+        <label class="label" for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Name</label>
+        <div class="control">
+            <input class="input" id="name" name="name" autocomplete="name" type="text" required 
+                style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem;"/>
+        </div>
+    </div>
+    <div class="field" style="margin-bottom: 1.5rem;">
+        <label class="label" for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Email</label>
+        <div class="control">
+            <input class="input" id="email" name="email" autocomplete="email" type="email" required
+                style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem;"/>
+        </div>
+    </div>
+    <div class="field" style="margin-bottom: 1.5rem;">
+        <label class="label" for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Message</label>
+        <div class="control">
+            <textarea class="textarea" id="message" name="message" required
+                style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px; min-height: 150px; font-size: 1rem;"></textarea>
+        </div>
+    </div>
+    <div class="field">
+        <div class="control">
+            <button class="button is-link is-pulled-right" type="submit" 
+                style="background-color: #3273dc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; font-size: 1rem; cursor: pointer; transition: background-color 0.2s;">Send</button>
+        </div>
+    </div>
+</form>

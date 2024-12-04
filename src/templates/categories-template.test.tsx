@@ -32,17 +32,17 @@ describe("CategoriesTemplate", () => {
 
     expect(getMeta(container, "twitter:card")).toEqual("summary_large_image");
     expect(getMeta(container, "twitter:title")).toEqual(
-      "Categories - Blog by John Doe",
+      "Categories - Writings by Jay Schulman",
     );
-    expect(getMeta(container, "og:title")).toEqual("Categories - Blog by John Doe");
+    expect(getMeta(container, "og:title")).toEqual("Categories - Writings by Jay Schulman");
     expect(getMeta(container, "description")).toEqual(
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+      "A blog about blockchain technology, DeFi, and the future of finance.",
     );
     expect(getMeta(container, "og:description")).toEqual(
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+      "A blog about blockchain technology, DeFi, and the future of finance.",
     );
     expect(getMeta(container, "twitter:description")).toEqual(
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+      "A blog about blockchain technology, DeFi, and the future of finance.",
     );
   });
 });

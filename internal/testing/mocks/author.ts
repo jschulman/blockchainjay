@@ -1,8 +1,8 @@
 import contacts from "./contacts";
 
 export default {
-  title: "John Doe",
+  title: "Jay Schulman",
   photo: "/logo.png",
-  description: "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  description: "A blog about blockchain technology, DeFi, and the future of finance.",
   contacts,
 };

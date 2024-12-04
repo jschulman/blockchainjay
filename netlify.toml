@@ -1,0 +1,26 @@
+[build]
+  command = "yarn build"
+  publish = "site/public"
+  functions = "site/functions"
+
+[build.environment]
+  NODE_VERSION = "18.20.5"
+  YARN_VERSION = "1.22.22"
+  YARN_FLAGS = "--no-ignore-optional"
+
+[[plugins]]
+  package = "@netlify/plugin-gatsby"
+
+[dev]
+  command = "yarn develop"
+  port = 8000
+  targetPort = 8000
+  publish = "site/public"
+  framework = "gatsby"
+
+# Redirect all traffic to HTTPS
+[[redirects]]
+  from = "http://*"
+  to = "https://:splat"
+  status = 301
+  force = true 

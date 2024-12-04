@@ -1,0 +1,57 @@
+---
+title: Top Blockchain News for Sep 20, 2023
+date: '2023-09-20T00:00:00.000Z'
+template: post
+draft: false
+slug: /posts/top-blockchain-news-for-sep-20-2023
+category: Blockchain News
+tags:
+- Blockchain
+- News
+description: Explore the latest in blockchain and crypto, from Injective's new Ethereum-compatible
+  Layer 2 solution to the slow pace of crypto venture deals and looming SEC enforcement.
+  Dive into today's top stories!
+---
+September 20, 2023
+
+Welcome to Morning Blockchain, the ultimate energy drink for accountants and auditors interested in the world of blockchain and cryptocurrency. Today, we've got a refreshing mix of articles to power you through hump day, from Injective's inEVM Layer 2 solution enabling Ethereum apps to run seamlessly, to insights on the slow pace of crypto venture deals and the potential for more enforcement actions on the horizon. So crack open a can of knowledge and let's dive in!
+
+### Top Stories
+[What is the blockchain trilemma?](https://www.theblock.co/learn/249536/what-is-the-blockchain-trilemma?utm_source=rss&utm_medium=rss/)
+chain and secured by miners who validate transactions and solve complex mathematical puzzles. This ensures that the network is resistant to attacks and maintains the integrity of the data stored on the blockchain.
+
+Scalability: the second cornerstone of the blockchain trilemma Scalability refers to the ability of a blockchain network to handle a large number of transactions and users without experiencing significant delays or increasing fees. This is a crucial aspect for widespread adoption of blockchain technology in various industries. However, achieving scalability is challenging due to the consensus mechanisms used in many blockchains, such as proof of work. These mechanisms require a large amount of computational power, which limits the transaction throughput and increases the time required to confirm transactions. Various solutions, such as sharding and layer 2 protocols, are being explored to address this scalability issue and enable blockchain networks to handle a higher volume of transactions.
+
+Decentralization: the third cornerstone of the blockchain trilemma Decentralization is one of the fundamental principles of blockchain technology. It ensures that control
+[Injective tests inEVM Layer 2 to support Ethereum applications](https://www.theblock.co/post/251683/injective-inevm-ethereum-applications-cosmos-ecosystem?utm_source=rss&utm_medium=rss/)
+Injective, a Cosmos-based Layer 1 blockchain, has launched its inEVM Layer 2 solution on testnet, allowing Ethereum applications to run natively within the Injective ecosystem, without the need for code alterations. This expands Injective's Layer 2 ecosystem and enhances interoperability with other blockchains, and inEVM serves as an EVM rollup linked to Injective, leveraging the security provided by the mainnet's validator set.
+[The crypto venture market is painfully slow](https://www.theblock.co/post/251632/crypto-vc-slowdown?utm_source=rss&utm_medium=rss/)
+In this episode of The Scoop, Mike Dudas discusses the current state of the crypto venture market, highlighting the slow pace of dealmaking due to a decrease in real users for blockchain products and founder expectations based on unrealistic valuations, but he remains optimistic about the increase in developer activity as a sign of better experiences and products for future crypto users.
+[GRVT raises funds at $39 million valuation to build hybrid crypto exchange](https://www.theblock.co/post/251665/grvt-crypto-exchange-funding?utm_source=rss&utm_medium=rss/)
+GRVT, a crypto project building a hybrid exchange, raised $7.1 million in pre-seed and seed funding, with a post-money valuation of $39 million, to develop a platform that aligns with current market needs and prevent another FTX-like collapse, offering an easy-to-use experience for both sophisticated and retail users across traditional investors to crypto native traders, combining the efficiencies of centralized exchanges with self-custody features of decentralized exchanges through a mix of off-chain order matchings and on-chain settlements.
+[Proposed Ethereum standard aims to verify security audits on-chain](https://www.theblock.co/post/251666/ethereum-standard-security-audits?utm_source=rss&utm_medium=rss/)
+A group of Ethereum developers has proposed a new standard, ERC-7512, which aims to enhance the security of Ethereum decentralized applications by allowing on-chain verification of smart contract audit information, addressing the need for more robust visibility and authentication of audits in light of the significant losses from DeFi-related scams and hacks, and potentially enabling more thorough audit checks and reputation systems for dapps.
+[Blockchain tech firm Jiritsu secures $10.2 million to develop verifiable computing](https://www.theblock.co/post/251623/blockchain-tech-firm-jiritsu-secures-10-2-million-to-develop-verifiable-computing?utm_source=rss&utm_medium=rss/)
+Blockchain company Jiritsu has raised $10.2 million in funding and unveiled its asset tokenization platform, Tomei RWA, which aims to offer secure and compliant asset management through its attestation system, further demonstrating the advancements being made in verifiable computing and the potential applications of blockchain technology in various industries.
+[UK bill to seize illicit crypto moves to final stages of approval](https://www.theblock.co/post/251910/uk-bill-to-seize-illicit-crypto-moves-to-final-stages-of-approval?utm_source=rss&utm_medium=rss/)
+The UK's Economic Crime and Corporate Transparency Bill, which has been passed to the final stages of approval, could give local authorities the power to freeze and confiscate cryptocurrency assets related to criminal activities, such as money laundering, drug trafficking, cybercrime, and terrorism, making it relevant to blockchain and cryptocurrency as it addresses how crypto assets can be seized by authorities under the new legislation.
+[Binance Staked Ether Experiences $573M in Inflows This Month](https://www.coindesk.com/business/2023/09/19/binance-staked-ether-experiences-573m-in-inflows-this-month/?utm_medium=referral&utm_source=rss&utm_campaign=headlines/)
+Liquid staking token TVL on Coinbase exchange experienced significant fluctuations until a surge of $165 million and $243 million in transactions, highlighting the growing interest in staking on the Ethereum blockchain and its relevance to the cryptocurrency market.
+[Can Spiderchain help bring Ethereum functionality into the Bitcoin-verse?](https://www.theblock.co/post/251780/spiderchain-helps-bring-ethereum-functionality-into-the-bitcoin-verse?utm_source=rss&utm_medium=rss/)
+Casa CTO Jameson Lopp believes that the Botanix EVM Layer 2 protocol's proposal for pegging bitcoin to its Spiderchain sidechain has been overlooked, as it could be implemented without requiring any changes on the Bitcoin base layer, bridging the gap between Bitcoin and Ethereum's DeFi boom by introducing a second layer on Bitcoin with full Ethereum Virtual Machine compatibility.
+[CZ Denies Binance.US Used Ceffu or Binance Custody in Apparent Contradiction](https://www.coindesk.com/policy/2023/09/19/cz-denies-binanceus-used-ceffu-or-binance-custody-in-apparent-contradiction/?utm_medium=referral&utm_source=rss&utm_campaign=headlines/)
+Binance.US, in an attempt to defend itself against SEC charges of running an unregistered crypto exchange, has revealed that it relied on wallet custody software developed by BHL, which it later learned was planning to market the software commercially under the name 'Ceffu,' thereby adopting the name as a shorthand reference to the software, demonstrating the relevance of this article to blockchain and cryptocurrency as it highlights the use of wallet custody software in the crypto industry.
+[Nomura's crypto arm launches 'long-only' bitcoin exposure fund](https://www.theblock.co/post/251766/nomura-laser-crypto-bitcoin-fund?utm_source=rss&utm_medium=rss/)
+Japanese banking giant Nomura's crypto unit, Laser Digital, has launched an asset management business with the Bitcoin Adoption Fund, providing institutional investors with exposure to bitcoin and signaling the firm's commitment to the growing crypto market; this is relevant to blockchain and cryptocurrency as it demonstrates continued interest and investment in the space by traditional financial institutions.
+[Nomura's Laser Digital Starts 'Bitcoin Adoption Fund' for Institutional Investors](https://www.coindesk.com/business/2023/09/19/nomuras-laser-digital-starts-bitcoin-adoption-fund-for-institutional-investors/?utm_medium=referral&utm_source=rss&utm_campaign=headlines/)
+Sebastien Guglietta, head of Laser Digital Asset Management, believes that Bitcoin is a key player in the digital transformation of the economy, making it a valuable long-term investment for capturing this trend. This article is relevant to blockchain and cryptocurrency as it highlights the role of Bitcoin in driving global economic growth and its potential as a solution for investors.
+[Circle issues native USDC stablecoin on Polkadot](https://www.theblock.co/post/251796/circle-usdc-polkadot?utm_source=rss&utm_medium=rss/)
+Stablecoin issuer Circle has made the USDC stablecoin available on the Polkadot ecosystem, allowing users of interconnected parachains to access the dollar-backed stablecoin, further expanding its reach in the blockchain and cryptocurrency space.
+[SEC official says more crypto exchanges could face charges: report](https://www.theblock.co/post/251929/sec-official-says-more-crypto-exchanges-could-face-charges-report?utm_source=rss&utm_medium=rss/)
+The Securities and Exchange Commission's head of Crypto Assets and Cyber Unit, David Hirsch, has hinted at potential enforcement actions against cryptocurrency exchanges and decentralized finance projects that fail to comply with proper disclosures or register with the agency, suggesting that there may be more crackdowns on the horizon, similar to recent cases against Coinbase and Binance, and potentially extending to the DeFi sector as well.
+[Optimism Quietly Rolls Out Third Community Airdrop](https://www.coindesk.com/markets/2023/09/19/optimism-quietly-rolls-out-third-community-airdrop/?utm_medium=referral&utm_source=rss&utm_campaign=headlines/)
+The article discusses how the Optimism blockchain, which has achieved a total value locked of $658 million, has become the sixth largest blockchain, making it relevant to blockchain and cryptocurrency enthusiasts as it highlights the growth and adoption of a promising blockchain technology.
+[India ranks 2nd in global cryptocurrency transaction volume: Chainalysis](https://www.theblock.co/post/251761/india-ranks-second-in-global-cryptocurrency-transaction-volume-chainalysis-says?utm_source=rss&utm_medium=rss/)
+India has become the second largest crypto market in the world, with a transaction volume of nearly $269 billion, despite challenges posed by tax laws, according to a report by Chainalysis; this is relevant to blockchain and cryptocurrency as it demonstrates the growing adoption of crypto in a country with a challenging regulatory environment, highlighting the resilience and demand for cryptocurrencies in emerging markets.
+
+---

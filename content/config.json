@@ -1,9 +1,9 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-  "copyright": "© All rights reserved.",
-  "googleAnalyticsId": "UA-73379983-2",
+  "title": "Writings by Jay Schulman",
+  "url": "https://blockchainjay.org",
+  "description": "A blog about blockchain technology, DeFi, and the future of finance.",
+  "copyright": "© 2024 Jay Schulman. All rights reserved.",
+  "googleAnalyticsId": "UA-00000000-2",
   "pathPrefix": "/",
   "feedLimit": 4,
   "menu": [
@@ -21,18 +21,18 @@
     }
   ],
   "author": {
-    "title": "John Doe",
+    "title": "Writings by Jay Schulman",
     "photo": "/logo.png",
-    "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "description": "A blog about blockchain technology, DeFi, and the future of finance.",
     "contacts": [
       {
         "name": "github",
-        "contact": "alxshelepenok"
+        "contact": "jschulman"
       },
       {
         "name": "linkedin",
-        "contact": "alxshelepenok"
-      }
+        "contact": "jschulman"
+      },
     ]
   }
 }

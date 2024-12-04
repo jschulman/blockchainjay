@@ -97,14 +97,14 @@ exports[`Post renders correctly 1`] = `
             {
               "$$typeof": Symbol(react.test.json),
               "children": [
-                "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+                "A blog about blockchain technology, DeFi, and the future of finance.",
                 {
                   "$$typeof": Symbol(react.test.json),
                   "children": [
                     {
                       "$$typeof": Symbol(react.test.json),
                       "children": [
-                        "John Doe",
+                        "Jay Schulman",
                       ],
                       "props": {},
                       "type": "strong",
