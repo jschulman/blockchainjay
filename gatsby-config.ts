@@ -109,7 +109,13 @@ export default {
           },
           "gatsby-remark-autolink-headers",
           "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
+          {
+            resolve: "gatsby-remark-copy-linked-files",
+            options: {
+              destinationDir: "static/media",
+              ignoreFileExtensions: [],
+            },
+          },
           "gatsby-remark-smartypants",
           "gatsby-remark-external-links",
         ],

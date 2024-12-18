@@ -1,0 +1,36 @@
+import React from 'react'
+
+class AudioWidget extends React.Component {
+    render() {
+        let audio = null
+        const { audio: showAudio, audioFile } = this.props
+
+        console.log('AudioWidget Props:', {
+            showAudio,
+            audioFile,
+            propsReceived: !!this.props
+        })
+
+        if (showAudio && audioFile) {
+            console.log('Rendering audio player with file:', audioFile)
+            audio = (
+                <div>
+                    <audio controls>
+                        <source src={audioFile} type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                    </audio>
+                    <br className="post-breaker" />
+                </div>
+            )
+        } else {
+            console.log('Not rendering audio player because:', {
+                showAudio,
+                hasAudioFile: !!audioFile
+            })
+        }
+
+        return <div>{audio}</div>
+    }
+}
+
+export default AudioWidget 

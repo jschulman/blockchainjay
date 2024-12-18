@@ -1,0 +1,11 @@
+---
+title: "Digital Assets 2024 Year in Review"
+date: "2024-12-18"
+template: "post"
+draft: false
+audio: true
+category: "Podcasts"
+description: "Digital Assets 2024 Year in Review"
+attachments:
+  - "/media/podcast.mp3"
+--- 

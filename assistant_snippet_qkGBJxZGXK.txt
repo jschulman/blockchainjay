@@ -1,0 +1,15 @@
+1|class PodcastsRoute extends React.Component {
+2|  componentDidMount() {
+3|    console.log('PodcastsRoute mounted with data:', this.props.data)
+4|  }
+5|
+6|  render() {
+7|    const items = []
+8|    const { title, description } = this.props.data.site.siteMetadata
+9|    const posts = this.props.data.allMarkdownRemark.edges
+10|
+11|    console.log('Rendering PodcastsRoute with posts:', posts)
+12|
+13|    // ... rest of the render method
+14|  }
+15|} 

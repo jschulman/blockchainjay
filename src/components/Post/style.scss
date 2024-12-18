@@ -1,0 +1,36 @@
+.post {
+    &__meta {
+        &-time {
+            font-style: italic;
+        }
+
+        &-divider {
+            margin: 0 5px;
+        }
+
+        &-category-link {
+            text-decoration: none;
+        }
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        margin: 0;
+
+        &-link {
+            text-decoration: none;
+        }
+    }
+
+    &__description {
+        margin: 10px 0;
+    }
+}
+
+.breaker {
+    margin: 15px 0;
+}
+
+.post-breaker {
+    margin: 10px 0;
+}

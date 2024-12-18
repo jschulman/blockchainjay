@@ -36,6 +36,10 @@ export const query = graphql`
         tags
         title
         description
+        audio
+        attachments {
+          publicURL
+        }
         socialImage {
           publicURL
         }

@@ -1,0 +1,34 @@
+1|module.exports = {
+2|  siteMetadata: {
+3|    title: 'Your Site Title',
+4|    description: 'Your site description',
+5|    author: {
+6|      name: 'Your Name'
+7|    }
+8|  },
+9|  plugins: [
+10|    'gatsby-plugin-react-helmet',
+11|    'gatsby-plugin-sass',
+12|    {
+13|      resolve: 'gatsby-source-filesystem',
+14|      options: {
+15|        name: 'posts',
+16|        path: `${__dirname}/content/posts`,
+17|      },
+18|    },
+19|    {
+20|      resolve: 'gatsby-transformer-remark',
+21|      options: {
+22|        plugins: [
+23|          {
+24|            resolve: 'gatsby-remark-copy-linked-files',
+25|            options: {
+26|              destinationDir: 'static/media',
+27|              ignoreFileExtensions: [],
+28|            },
+29|          },
+30|        ],
+31|      },
+32|    },
+33|  ],
+34|} 
